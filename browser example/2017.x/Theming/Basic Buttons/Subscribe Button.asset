@@ -11,13 +11,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afe6f289827b4d279eff68b33fdbb82, type: 3}
   m_Name: Subscribe Button
   m_EditorClassIdentifier: 
-  imageColor: {r: 0.19607843, g: 0.4509804, b: 0.8627451, a: 1}
+  imageColor: {r: 0.11999998, g: 0.27599993, b: 0.528, a: 1}
   functionalColors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
-  innerElementColor: {r: 1, g: 1, b: 1, a: 1}
+  innerElementColor: {r: 1, g: 0.47058815, b: 0.078431346, a: 1}
   toggleColor: {r: 1, g: 1, b: 1, a: 1}
