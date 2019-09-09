@@ -1,6 +1,8 @@
 {
     "name": "mod.io.UnityPlugin",
-    "references": [],
+    "references": [
+        "SteamVR"
+    ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
