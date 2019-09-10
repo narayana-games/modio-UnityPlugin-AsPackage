@@ -708,12 +708,6 @@ namespace ModIO.UI
             }
         }
 
-        [Obsolete("Replaced by ClearAllFilters() - but still used in ModBrowser (prefab), ClearFilterButton")]
-        public void ClearFilters()
-        {
-            ClearAllFilters();
-        }
-        
         // ---------[ FILTER MANAGEMENT ]---------
         public void ClearAllFilters()
         {
