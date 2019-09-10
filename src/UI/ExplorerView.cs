@@ -823,6 +823,12 @@ namespace ModIO.UI
         [Obsolete("No longer necessary. Initialization occurs in Start().")]
         public void Initialize() {}
 
+        [Obsolete("Use ExplorerView.ClearAllFilters() instead.")]
+        public void ClearFilters()
+        {
+            ClearAllFilters();
+        }
+
         [Obsolete("No longer necessary. Event is directly linked to ModBrowser.")]
         public event Action<ModView> inspectRequested;
         [Obsolete("No longer necessary. Event is directly linked to ModBrowser.")]
