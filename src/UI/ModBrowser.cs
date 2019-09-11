@@ -268,7 +268,7 @@ namespace ModIO.UI
                     },
                     (e) =>
                     {
-                        Debug.Log("[mod.io] Failed to collect new OAuthToken for stored Steam user ticket.\n"
+                        Debug.LogError("[mod.io] Failed to collect new OAuthToken for stored Steam user ticket.\n"
                                   + e.errorMessage);
 
                         isAttemptingReauth = false;

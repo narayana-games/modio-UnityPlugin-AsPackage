@@ -85,7 +85,14 @@ namespace ModIO
                 UserAuthenticationData.instance = authData;
                 UserAccountManagement.FetchUserProfile(onSuccess, onError);
             },
-            onError);
+                (e) =>
+                {
+                    UnityEngine.Debug.LogError(
+                        $"<b>[mod.io Authentication Steam]</b> Failed with ticket: {encodedTicket}"
+                        +$"{System.Environment.NewLine}{e.ToUnityDebugString()}");
+                    onError(e);
+                }
+            );
 
         }
 
