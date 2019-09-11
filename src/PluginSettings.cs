@@ -62,7 +62,10 @@ namespace ModIO
         #pragma warning disable 0649
         private Data m_data;
         #pragma warning restore 0649
-        public Data InstanceData => m_data;
+        public Data InstanceData
+        {
+            get { return m_data; }
+        }
 
         // ---------[ FUNCTIONALITY ]---------
         /// <summary>Loads the Data from the asset instance.</summary>
